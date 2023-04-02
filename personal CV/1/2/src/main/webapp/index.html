@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>HDJ</title>
+
+<link href = "bss/css/bootstrap.css" rel = "stylesheet">
+<link href = "bss/css/bootstrap.min.css" rel = "stylesheet">
+<link href = "bss/css/bootstrap-theme.min.css" rel = "stylesheet">
+
+<link href = "resource/style.css" rel = "stylesheet">
+
+</head>
+<body data-spy = "scroll" data-target = "#mytab">
+	<nav class = "navbar navbar-default">
+		<div class = "container">
+			<ul class ="nav nav-tabs" id = "myTab" role = "tablist">
+			<li class = "nav-item" role = "presentation">
+				<a class = "nav-link" data-toggle="tab" href="#basic" role="tab"  >Basic information</a>
+			</li>
+			<li class = "nav-item" role = "presentation">
+				<a class = "nav-link" data-toggle="tab" href="#education" role="tab"   >Education experience</a>
+			</li>
+			<li class = "nav-item" role = "presentation">
+				<a class = "nav-link" data-toggle="tab" href="#work" role="tab"  >Work experience</a>
+			</li>
+			<li class = "nav-item" role = "presentation">
+				<a class = "nav-link" data-toggle="tab" href="#skill" role="tab"   >Skill</a>
+			</li>
+			<li class = "nav-item" role = "presentation">
+				<a class = "nav-link" data-toggle="tab" href="#contact" role="tab"  >Contact me</a>
+			</li>
+			<li class="nav-item" role="presentation">
+              	<a class="nav-link" id="t3" href="./resmue">For task 3</a>
+            </li>
+		    </ul>
+		</div>
+	</nav>
+
+<div data-spy = "scroll" data-target = "#myTab" class = "scrollspy-example=2" style = "height:920px ; overflow-y: scroll" >
+<br></br>
+<div class = "header">
+	<h1>HDJ</h1>
+</div>
+
+
+<div class = "container">
+	<div class = "information" id = "basic">
+		<h2>Basic information</h2>
+		<div class = "img">
+		<img src = "resource/photo.jpeg" width = "160px">
+		</div>
+		<table>
+			<tr>
+				<td>Name : </td>
+				<td>HDJ </td>
+			</tr>
+			<tr>
+				<td>Age : </td>
+				<td>20 </td>
+			</tr>
+			<tr>
+				<td>Gender : </td>
+				<td>male </td>
+			</tr>
+			<tr>
+				<td>School</td>
+				<td>xiamen university</td>
+			</tr>
+			<tr>
+				<td>Telephone: </td>
+				<td>+86 18059440113</td>
+			</tr>
+			<tr>
+				<td>email : </td>
+				<td>1743577419@qq.com</td>
+			</tr>
+		</table>
+	</div>
+</div>
+<br></br>
+
+<div class = "container">
+	<div class = "information" id = "education">
+		<h2>Education</h2>
+		<hr>
+		<ul style = "circle ">
+		<li>Major courses: data structure, discrete mathematics, operating system, artificial intelligence, software architecture, computer security, line algebra, advanced mathematics, network design, programming technology (c language, python Unix)</li>
+		<li>Minor Courses: Market Operation, Social Practice, Introduction to Finance</li>
+		</ul>
+	</div>
+</div>
+<br></br>
+
+<div class = "container">
+	<div class = "information" id = "work">
+		<h2>Work experience</h2>
+		<p>Game host and assistant store manager</p>
+		<hr>
+		<ul style = "circle">
+		<li>Expansion of new customers: Through content operation, event operation and other means, the online and offline dual channels of customer acquisition have been achieved. The store has added 10 new players every day, and the repurchase rate has increased by 70%. New customers spontaneously fission, and old customers help attract people.</li>
+		<li>Community maintenance: explore the new needs of players, maintain active interaction and communication with players, and enhance the stickiness and activity of the community through content sharing, topic creation, and hot marketing. , a year-on-year increase of 50%</li>
+		<li>Store management: mainly responsible for staff attendance management and training, player reception and Q&A, etc.</li>
+		<li>Game guidance and replay: Serve as the DM of the logic book, guide the player's game progress and replay explanation, ensure the player's pleasant experience, and have developed a group of loyal customers.</li>
+		</ul>
+	</div>
+</div>
+
+<div class = "container">
+	<div class = "information" id = "skill">
+		<h2>Skill</h2>
+		<hr>
+		<ul style = "square">
+		<li>Proficient in various programming languages, such as c language, assembled language, java, python. </li>
+		<li>Have a certain level of English ability, IELTS 6.5, reading level 7.5, can use English for basic life communication, familiar with a certain degree of business English.</li>
+		<li>Excellent social skills, can be very friendly when getting along with classmates or colleagues. Don't panic when facing strangers.</li>
+		<li>Proficient in all kinds of games, fully understand the depth and breadth of the game.</li>
+		</ul>
+	</div>
+</div>
+<br></br>
+
+<div class = "container">
+	<div class = "information" id = "contact">
+		<h2>Contact me </h2>
+		<table>
+			<tr>
+				<td>Company name</td>
+				<td>
+					<input type = "text" placeholder = "tecent" id = "company" name = "company" size = "45" onblur = "validate_name(this.company)">
+				</td>
+			</tr>
+			<tr>
+				<td>Company address</td>
+				<td>
+					<input type = "text" placeholder = "dongdalu" id = "address" name = "address" size = "45" >
+				</td>
+			</tr>
+			<tr>
+				<td>Company phone</td>
+				<td>
+				<input type = "text" placeholder = "123456" id = "phone" name = "phone" size = "45" onblur = "validate_phone(this.phone)">
+				</td>
+			</tr>
+			<tr>
+				<td>company email</td>
+				<td>
+				<input type = "text" placeholder = "174@123" id = "email" name = "email" size = "45" onblur = "validate_email(this.email)">
+				</td>
+			</tr>
+			<tr>
+				<td></td>
+				<td><input type = "submit"  id = "submit" value = "submit" onclick = "return validate()"/>
+					<input type = "reset"   value = "reset"/>
+		</table>
+	</div>
+</div>
+<br></br>
+</div>
+
+
+<footer class = "page-footer">
+	<div class = "footer-copyright text-center">HUANG DONGJIE | SWE2009502</div>
+</footer>
+
+<script src="./bss/js/bootstrap.min.js"></script>
+<script src="./bss/js/jquery-3.1.1.min.js"></script>
+<script type="text/javascript">
+
+
+function validate_name(company){
+	if(company.length > 2){
+		document.getElementById("test_com").innerHTML = "<font color='green' size='3px'>√ correct</font>";
+	}
+	else{
+		
+		document.getElementById("test_com").innerHTML = "<font color='red' size='3px'>invalid</font>";
+	}
+}
+
+function validate_phone(phone){
+	if(phone.length<10 && phone.length > 13){
+		document.getElementById("test_com").innerHTML = "<font color='red' size='3px'>invalid</font>";
+	}
+	else{
+		document.getElementById("test_com").innerHTML = "<font color='green' size='3px'>√ correct</font>";
+	}
+}
+
+function validate_email(email){
+		var emailReg = /^([A-Za-z0-9_\-\.])+\@([A-Za-z0-9_\-\.])+\.([A-Za-z]{2,4})$/;
+		if(email !="" && email.search(emailReg) != -1)
+		{
+			document.getElementById("test_email").innerHTML = "<font color='green' size='3px'>√ correct</font>";
+		}else{
+			document.getElementById("test_email").innerHTML = "<font color='red' size='3px'>Invaild email</font>";
+		}
+}
+
+function validate(){
+	var company = document.getElementById("company").value;
+	var phone = document.getElementById("phone").value;
+	var email = document.getElementById("email").value;
+	
+	if(company.length > 2 && phone.length == 12 && email !="" && email.search(emailReg) != -1 ){
+		alert ("you can submit now!");
+		console.log("submit!");
+		return true;
+	}
+	else{
+		return false;
+	}
+}
+
+
+
+</script>
+
+
+</body>
+</html>

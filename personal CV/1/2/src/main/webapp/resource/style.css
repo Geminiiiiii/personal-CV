@@ -1,0 +1,38 @@
+@charset "UTF-8";
+
+.header{
+	text-align: center;
+	font-family: Helvetica;
+	border-bottom:1px solid #F2F4F4;
+}
+
+.information{
+	border-left:solid;
+	padding-left:50px;
+}
+
+.information h2{
+	font-weight: bold;
+	text-align: center;
+	
+}
+
+.body{
+  background-color: lightblue;
+}
+
+p {
+  font-family: verdana;
+  font-size: 20px;
+}
+
+#basic{
+	font-size: normal;
+	text-align:upper;
+	position:top;
+	
+}
+
+.img{
+	text-align : right;
+}
