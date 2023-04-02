@@ -34,13 +34,13 @@ eclipse  and tomcat
 
 给出更多使用演示和截图，并贴出相应代码。
 ![Image](https://github.com/Geminiiiiii/personal-cv/raw/main/cv1(1).jpg)
-![Image](https://github.com/Geminiiiiii/personal-cv/raw/main/cv2(2).jpg)
-![Image](https://github.com/Geminiiiiii/personal-cv/raw/main/cv3(3).jpg)
-![Image](https://github.com/Geminiiiiii/personal-cv/raw/main/cv4(4).jpg)
-![Image](https://github.com/Geminiiiiii/personal-cv/raw/main/cv5(5).jpg)
-![Image](https://github.com/Geminiiiiii/personal-cv/raw/main/cv6(6).jpg)
-![Image](https://github.com/Geminiiiiii/personal-cv/raw/main/cv7(7).jpg)
-![Image](https://github.com/Geminiiiiii/personal-cv/raw/main/cv8(8).jpg)
+![Image](https://github.com/Geminiiiiii/personal-cv/raw/main/cv2(1).jpg)
+![Image](https://github.com/Geminiiiiii/personal-cv/raw/main/cv3(1).jpg)
+![Image](https://github.com/Geminiiiiii/personal-cv/raw/main/cv4(1).jpg)
+![Image](https://github.com/Geminiiiiii/personal-cv/raw/main/cv5(1).jpg)
+![Image](https://github.com/Geminiiiiii/personal-cv/raw/main/cv6(1).jpg)
+![Image](https://github.com/Geminiiiiii/personal-cv/raw/main/cv7(1).jpg)
+![Image](https://github.com/Geminiiiiii/personal-cv/raw/main/cv8(1).jpg)
 
 
 
